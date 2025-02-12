@@ -1,0 +1,6 @@
+flask
+tensorflow
+numpy
+Werkzeug
+gunicorn
+flask_cors
