@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for cross-origin requests
 
 # Load the trained model
-MODEL_PATH = "C:/Users/User/Desktop/Deployment/Lung Cancer Detection/lung_cancer_model3.h5"  # Update with your actual path
+MODEL_PATH = "lung_cancer_model3.h5"  # Update with your actual path
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class names based on model
